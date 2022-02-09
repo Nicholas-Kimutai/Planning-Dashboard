@@ -2,15 +2,85 @@ iframe{
   padding: 200px;
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-left: 400px;
+  padding-right: 50px;
 }
 h1{
   padding-top: 5px;
   padding-bottom: 5px;
   padding: 20px;
-  padding-left: 200px;
+  padding-left: 400px;
   color: white;
+  font-size: 50px;
 }
 body{
   background: rgb(150,75,0);
 background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 100%);
+}
+
+
+.subs{
+  padding-left: 100px;
+  padding-top: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.home{
+  padding-left: 100px;
+  padding-top: 5px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 90px;
+}
+.home img{
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+ 
+}
+.home a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+.hme span{
+  text-align: center;
+  padding-top: 25px;
+  position: absolute;
+}
+
+
+.subs a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+span{
+  text-align: center;
+  padding-top: 60px;
+  position: absolute;
+}
+
+.subs img{
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+ 
+}
+
+.sls{
+  padding-top: 30px;
+  align-items: center;
+}
+
+.prc{
+  padding-top: 30px;
 }
