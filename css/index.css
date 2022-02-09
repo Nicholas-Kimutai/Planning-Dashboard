@@ -1,13 +1,229 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ------ Hero Section Styling ------ */
 #hero {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../images/hero-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .text {
+    width: 60%;
+    height: 100%;
+    padding: 2% 5%;
+    background-image: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.2)
+        ),
+        url("../images/man-writes-on-notebook.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#hero .text h1 {
+    font-size: 2.5vw;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.05vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero .text h1 span {
+    color: #377c37;
+}
+
+#hero .text h2 {
+    margin-top: 15%;
+    font-size: 5.5vw;
+    font-weight: 800;
+    color: #fff;
+}
+
+#hero .text h3 {
+    margin-top: 10%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+#hero .text button {
+    background-color: #5b9e33;
+    color: #fff;
+    padding: 1.5% 4%;
+    outline: none;
+    border: none;
+    border-radius: 0.3vw;
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+#hero .form {
+    width: 40%;
+    height: 100%;
+    background-color: #377c37;
+    padding: 2% 5%;
+}
+
+#hero .form .socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#hero .form .socials p {
+    color: #fff;
+    font-size: 1vw;
+    margin-right: 2%;
+}
+
+#hero .form .socials svg {
+    width: 2vw;
+    height: 2vw;
+    color: #8dd361;
+    margin: 0 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+/* ----- login form ----- */
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 30%;
+    padding: 10%;
+}
+
+.login-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 7% 0;
+    width: 80%;
+    font-size: 1vw;
+}
+
+.login-form label input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 0.1vw #fff;
+    outline: none;
+    margin-top: 7%;
+    width: 100%;
+}
+
+.login-form .login-submit {
+    border: none;
+    outline: none;
+    background-color: #5b9e33;
+    color: #fff;
+    padding: 2% 5%;
+    margin-top: 5%;
+    font-size: 0.9vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+}
+
+.login-form .accout-present {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.login-form .accout-present div p {
+    font-size: 00.9vw;
+}
+
+.login-form .accout-present div #signup {
+    cursor: pointer;
+    color: #8dd361;
+}
+
+/* ----- sign up form ----- */
+.signup-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 20%;
+    padding: 10%;
+    transition: 0.4s ease;
+}
+
+.signup-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 7% 0;
+    width: 80%;
+    font-size: 1vw;
+}
+
+.signup-form label input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 0.1vw #fff;
+    outline: none;
+    margin-top: 7%;
+    width: 100%;
+    color: #fff;
+    font-size: 1vw;
+}
+
+.signup-form .signup-submit {
+    border: none;
+    outline: none;
+    background-color: #5b9e33;
+    color: #fff;
+    padding: 2% 5%;
+    margin-top: 5%;
+    font-size: 0.9vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+}
+
+.signup-form .accout-present {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.signup-form .accout-present div p {
+    font-size: 0.9vw;
+}
+
+.signup-form .accout-present div #login {
+    cursor: pointer;
+    color: #8dd361;
+}
+
+.hidden-form {
+    display: none;
 }
