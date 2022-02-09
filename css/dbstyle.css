@@ -2,14 +2,14 @@ iframe{
   padding: 200px;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 400px;
-  padding-right: 50px;
+  padding-left: 300px;
+  padding-right: 10px;
 }
 h1{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding: 20px;
-  padding-left: 400px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding: 5px;
+  padding-left: 300px;
   color: white;
   font-size: 50px;
 }
@@ -20,9 +20,9 @@ background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 10
 
 
 .subs{
-  padding-left: 100px;
+  padding-left: 10px;
   padding-top: 100px;
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
 }
@@ -30,22 +30,22 @@ background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 10
 .home{
   padding-left: 100px;
   padding-top: 5px;
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   right: 90px;
 }
 .home img{
   padding: 10px;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   object-fit: cover;
  
 }
 .home a{
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
 }
 .hme span{
@@ -58,20 +58,20 @@ background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 10
 .subs a{
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 span{
   text-align: center;
-  padding-top: 60px;
+  padding-top: 40px;
   position: absolute;
 }
 
 .subs img{
   padding: 10px;
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   object-fit: cover;
  
 }
