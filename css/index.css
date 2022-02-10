@@ -232,7 +232,7 @@ form {
 #about {
     width: 100%;
     height: auto;
-    padding: 7% 5%;
+    padding: 10% 5% 7% 5%;
     display: flex;
 }
 
