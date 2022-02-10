@@ -14,8 +14,8 @@ h1{
   font-size: 50px;
 }
 body{
-  background: rgb(150,75,0);
-background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 100%);
+  background: rgb(238, 236, 234);
+background: linear-gradient(200deg, #5B9E33 15%, rgba(255,255,255,1) 80%);
 }
 
 
@@ -30,7 +30,7 @@ background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 10
 .home{
   padding-left: 100px;
   padding-top: 5px;
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column;
   right: 90px;
@@ -40,6 +40,7 @@ background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 10
   height: 35px;
   width: 35px;
   object-fit: cover;
+  
  
 }
 .home a{
@@ -57,7 +58,7 @@ background: linear-gradient(180deg, rgba(150,75,0,1) 15%, rgba(255,255,255,1) 10
 
 .subs a{
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
   font-weight: 500;
 }
