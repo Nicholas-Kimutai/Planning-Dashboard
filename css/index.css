@@ -369,3 +369,94 @@ form {
     border-radius: 50%;
     margin: 10% 0;
 }
+
+/* ------ contact section styling ------ */
+#contact {
+    padding: 5% 10% 2% 10%;
+}
+
+#contact h3 {
+    color: #5b9e33;
+    font-size: 2vw;
+}
+
+#contact .contact-wrapper {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-wrapper form {
+    width: 50%;
+}
+
+.contact-wrapper form label {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+.contact-wrapper form label input {
+    margin-top: 5%;
+    width: 70%;
+    border: none;
+    border-bottom: #5b9e33 0.11vw solid;
+}
+
+.contact-wrapper form textarea {
+    margin-top: 5%;
+    width: 70%;
+    border: none;
+    border-bottom: #5b9e33 0.11vw solid;
+}
+
+.contact-wrapper form .contact-form-submit {
+    margin-top: 5%;
+    width: 20%;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background-color: #5b9e33;
+    color: #fff;
+    padding: 2.5% 5%;
+    border-radius: 0.3vw;
+    cursor: pointer;
+}
+
+.contact-wrapper .contact-icons {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.contact-wrapper .contact-icons div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-wrapper .contact-icons div svg {
+    width: 3vw;
+    height: 3vw;
+    margin: 8%;
+    color: #5b9e33;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons svg {
+    color: #5b9e33;
+    width: 2vw;
+    height: 2vw;
+    margin: 0.5%;
+}
