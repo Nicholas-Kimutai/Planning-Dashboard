@@ -320,3 +320,52 @@ form {
     transition: 0.3s ease;
     font-size: 4.2vw;
 }
+
+/* ------ testimonial styling ------ */
+#testimonials {
+    padding: 15% 5% 10% 5%;
+}
+
+#testimonials h3 {
+    color: #5b9e33;
+    font-size: 2vw;
+}
+
+#testimonials .client-wrapper {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#testimonials .client-wrapper div {
+    width: 30%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonials .client-wrapper div p {
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+    text-align: left;
+}
+
+#testimonials .client-wrapper div .client {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#testimonials .client-wrapper div .client p {
+    padding-left: 10%;
+}
+
+#testimonials .client-wrapper div img {
+    width: 5vw;
+    height: auto;
+    border-radius: 50%;
+    margin: 10% 0;
+}
